@@ -1,0 +1,113 @@
+#navegador{   
+    text-align: center;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+    top:0;
+    background: url("https://st3.depositphotos.com/32565308/36441/i/450/depositphotos_364419106-stock-photo-wide-panorama-red-wall-texture.jpg")fixed; 
+    background-size: contain;
+    z-index: 20;
+    border:2px solid black;
+}
+hr{
+    border: 3px solid white;
+    justify-content: center;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+}
+#navegador li a:hover{
+    color: black;
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.redes li a{
+    padding: 10px;
+}
+.redes li a:hover img{
+    height: 40px;
+    transition: 0.3s ease;
+}
+.redes li a img{
+    border-radius: 50%;
+}
+#adidas{
+    width: 70%;
+    margin:auto;
+    height: 2000px;
+}
+#adidas nav ul a{
+    color: white
+}
+#contenido{
+    padding:20px;
+}
+.post img{
+    width: 100%;
+}
+h1{
+    color: white;
+}
+h1 a:hover{
+    color: white
+}
+#xcf{
+     float:left; 
+     margin:10px;    
+}
+#f50{
+    float:right;
+    margin:10px;
+}
+.foto{
+    width:50px;
+    border-radius: 50%;    
+}
+#figure1{
+    float:right;
+    text-align: center;
+    font-size: 0.8em;
+}
+#figure2{
+    float:left;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+#contenido {
+    text-align: justify;
+}
+.video{
+    border:4px double var(--color4);
+    position:relative;
+    padding-bottom: 56.25%;
+    height:0 ;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px var(--color4);
+    z-index: 10;
+
+}
+.video iframe{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+#contenedor{
+    width: 70%;
+    margin:auto;
+}

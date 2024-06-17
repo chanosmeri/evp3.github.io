@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background: url("https://st3.depositphotos.com/32565308/36441/i/450/depositphotos_364419106-stock-photo-wide-panorama-red-wall-texture.jpg") no-repeat center center fixed; 
+    background-size:cover;
+    color:white;
+}
+#contenedor{
+    width: 95%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contenedor a:hover img{
+    transition: 0.3s ease;
+    filter: invert(100%);
+}
+#contenido{   
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 1.7%;
+}
+hr{
+    border: 3px solid white;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin:20px;
+}
+.menu li{
+    padding:10px
+}
+.menu li a{
+    text-decoration: none;
+    padding:10px;
+    text-transform: uppercase;
+    color:white
+}
+.menu li a:hover{
+    color: black;
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.redes li a{
+    padding: 10px;
+}
+.redes li a:hover img{
+    height: 40px;
+    transition: 0.3s ease;
+}
+.redes li a img{
+    border-radius: 50%;
+}
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding:20px;
+    font-style: italic;
+    text-align: center;  
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+}

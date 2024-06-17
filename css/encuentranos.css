@@ -1,0 +1,152 @@
+#navegador{   
+    text-align: center;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+    top:0;
+    background: url("https://st3.depositphotos.com/32565308/36441/i/450/depositphotos_364419106-stock-photo-wide-panorama-red-wall-texture.jpg")fixed; 
+    background-size: contain;
+    z-index: 20;
+    border:2px solid black;
+}
+h1{
+    color: white;
+}
+hr{
+    border: 3px solid white;
+    justify-content: center;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+}
+#navegador li a:hover{
+    color: black;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.redes li a{
+    padding: 10px;
+}
+.redes li a:hover img{
+    height: 40px;
+    transition: 0.3s ease;
+}
+.redes li a img{
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around
+}
+
+.contact-info{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-around;
+
+} .comment-form{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 20px;
+    background-color: white;
+} .map {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 70%;
+    position: relative;
+    transform: translateX(25%);
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.contact-info h2, .comment-form h2 {
+    margin-top: 0;
+    color: #8b0000;
+    text-align: center;
+}
+
+.contact-info table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+.contact-info table td {
+    padding: 5px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.comment-form form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8b0000;
+}
+
+.comment-form form input, .comment-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.comment-form form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-form form button:hover {
+    background-color: #a52a2a;
+}
+
+.map iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}

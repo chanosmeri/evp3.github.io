@@ -1,0 +1,77 @@
+#navegador{   
+    text-align: center;  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+    top:0;
+    background: url("https://st3.depositphotos.com/32565308/36441/i/450/depositphotos_364419106-stock-photo-wide-panorama-red-wall-texture.jpg")fixed; 
+    background-size: contain;
+    z-index: 20;
+    border:2px solid black;
+}
+h1{
+    color: white;
+}
+hr{
+    border: 3px solid white;
+    justify-content: center;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+}
+#navegador li a:hover{
+    color: black;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.redes li a{
+    padding: 10px;
+}
+.redes li a:hover img{
+    height: 40px;
+    transition: 0.3s ease;
+}
+.redes li a img{
+    border-radius: 50%;
+}
+#galeria {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item {
+    width: 30%;  
+    margin:10px;
+    text-align: center;   
+}
+  
+.item img {
+    width:100%;
+    box-shadow: 5px 5px 5px;
+}
+.item a{
+    filter: grayscale(100%);
+  }
+.item a:hover{
+    filter: grayscale(0%);
+    transition: 0.2s ease;
+}
+#contenido .item p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
